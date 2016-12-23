@@ -3,7 +3,8 @@
 (in-package :cg-user)
 
 (define-project :name :land-of-lisp
-  :modules (list (make-instance 'module :name "ch04/my-length.lisp"))
+  :modules (list (make-instance 'module :name "ch04/my-length.lisp")
+                 (make-instance 'module :name "ch04/cond.lisp"))
   :projects nil
   :libraries nil
   :editable-files nil
