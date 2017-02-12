@@ -5,7 +5,9 @@
 (define-project :name :land-of-lisp
   :modules (list (make-instance 'module :name "ch04/my-length.lisp")
                  (make-instance 'module :name "ch04/cond.lisp")
-                 (make-instance 'module :name "ch04/wizards-adventure.lisp"))
+                 (make-instance 'module :name "ch04/wizards-adventure.lisp")
+                 (make-instance 'module :name "ch04/chap6.lisp")
+                 (make-instance 'module :name "ch04/game-repl.lisp"))
   :projects nil
   :libraries nil
   :editable-files nil
